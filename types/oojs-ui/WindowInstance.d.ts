@@ -16,10 +16,10 @@ declare namespace OO.ui {
 
     namespace WindowInstance {
         interface Props {
-            opening: JQuery.Promise<void>;
-            opened: JQuery.Promise<void>;
-            closing: JQuery.Promise<void>;
-            closed: JQuery.Promise<void>;
+            opening: JQuery.Promise<any>;
+            opened: JQuery.Promise<any>;
+            closing: JQuery.Promise<any>;
+            closed: JQuery.Promise<any>;
         }
 
         interface Prototype {
